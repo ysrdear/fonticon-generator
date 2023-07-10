@@ -2,10 +2,14 @@
   "name": "fonticon-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/bin.js",
+  "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
+  "bin": {
+    "fonticon-generator": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
