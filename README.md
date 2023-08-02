@@ -22,3 +22,11 @@ fonticon-generator -h
 ```
 fonticon-generator -s svg文件夹路径 -c 输出css文件路径 -d 输出字体文件路径
 ```
+
+## 引用字体
+
+默认前缀if-
+
+```
+<i class="if-font-xxx"></i>
+```

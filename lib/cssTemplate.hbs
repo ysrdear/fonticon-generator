@@ -4,10 +4,13 @@
 }
 
 i {
+    display: inline-block;
+    min-width: 1em;
     line-height: 1;
+    vertical-align: middle;
 }
 
-i[class~="{{classPrefix}}"]:before {
+i[class*="{{classPrefix}}"]:before {
     font-family: {{fontName}} !important;
     font-style: normal;
     font-weight: normal !important;
